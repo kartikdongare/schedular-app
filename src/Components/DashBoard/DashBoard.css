@@ -1,0 +1,42 @@
+.App1{
+    box-shadow: 0 0 10px #e3e1dc;
+    border-radius: 10px;
+    padding: 10px;
+}
+.main-recent{
+display: flex;
+gap: 1rem;
+margin-bottom: 1rem;
+}
+.main-recent:hover{
+    background-color: rgb(224, 223, 223);
+    cursor: pointer;
+   
+}
+.recent-img{
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    position: relative;
+}
+.circle{
+    /* background-color: red; */
+    height: .8rem;
+    width: .8rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    left: 40px;
+    top: 30px;
+}
+
+
+/* RECENT ACTIVITY */
+.main-recentActivity{
+    margin-bottom: 4rem;
+    padding-left: 1rem;
+}
